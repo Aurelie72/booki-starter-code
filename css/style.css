@@ -38,7 +38,7 @@ ul a:hover
     border-top: 2px solid #0065FC;
 }
 ul a {
-    padding-top: 16px;
+    padding-top: 26px;
 }
 
 /* ************* SECTION 1***************** */
@@ -90,7 +90,7 @@ p{
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 24px;
 }
 #filtres h2{
     font-size: 21px;
@@ -102,8 +102,8 @@ p{
 .filtresbtn{
     background-color: white;
     border: 2px solid #d9d9d9;
-    padding: 19px;
-    border-radius: 25px;
+    padding: 12px;
+    border-radius: 45px;
     cursor: pointer;   
 }
 #divfiltres i {
@@ -151,7 +151,6 @@ p{
 .main-container {
     width: 100%;
     max-width: 1440px;
-    /* padding: 0 50px; */
     box-sizing: border-box;
      min-width: 320px;
 }
@@ -223,7 +222,7 @@ a {
 .hebergement-cards{
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 20px;
 }
 .hebergement-cards .card {
     display: flex;
@@ -311,11 +310,11 @@ a {
     padding: 0 30px;
 }
 #divactivites .cardlink {
-    flex: 1 1 calc(25% - 1em);
+    flex: 1 1 calc(25% - 1.3em);
 }
 #divactivites{
     display: flex;
-    gap: 1em;
+    gap: 1.3em;
     flex-wrap: wrap;
 }
 #activitesamarseille h2{
@@ -345,7 +344,7 @@ a {
 
 footer{
     background-color: #F2F2F2;
-    margin: 30px 50px 0px 50px;
+    margin: 70px 50px 0px 50px;
     padding: 20px;
 }
 #divfooter{
@@ -407,22 +406,43 @@ footer a p{
 header {    display: flex;   
     flex-direction: column;
 }
+header nav{
+    width: 100%;
+}
+header ul{
+    gap: 0;
+}
+header ul li {
+    width: 50%; 
+    text-align: center;
+}
+  header ul li {
+    border-bottom: 2px solid #d9d9d9; 
+    padding-bottom: 10px;
+    padding-top: 0;
+  }
 
-header a:hover{
+header ul li:hover{
     color: #0065FC;
     border-bottom: 2px solid #0065FC;
     border-top: none;
 }
-header a{
-    padding-bottom: 5px;
-}
+  ul a:hover {
+    border-top: none; 
+  }
+
 #firstsection{
     padding-left: 20px;
     padding-right: 20px;
-    justify-items: center;
+    padding-top: 20px;
+}
+#location{
+    justify-content: center;
 }
 #location-input {
-    padding: 0;}
+    padding: 0;
+    width: 180px;
+}
     
 .btn-text {
     display: none;     
@@ -444,12 +464,19 @@ header a{
     justify-content: center;
     align-items: center;
 }
+#info .fa-solid {
 
+    height: 30px;
+    width: 50px;}
 
 #divfiltres{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.hebergements-and-populaires section {
+    border-radius: 0;
+    margin-top: 0;
 }
 
 .populaires {
@@ -482,6 +509,8 @@ header a{
 
 #activitesamarseille{
     margin: 0 20px 0 20px;
+    padding-left: 0;
+    padding-right: 0;
 }
 #divactivites {
     flex-direction: column; 
@@ -494,7 +523,7 @@ header a{
     margin-bottom: 1em;     /* espace entre les cartes */
   }
 .cardactivites img {
-    height: 300px;}
+    height: 150px;}
 
 footer{
     margin: 30px 0 0 0;
