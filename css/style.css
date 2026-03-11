@@ -519,9 +519,9 @@ header ul li:hover{
   }
 
   #divactivites .cardlink {
-    flex: none;             /* annule le flex pour que chaque carte ait sa taille naturelle */
-    width: 90%;             /* ou autre largeur adaptée, ex: 300px */
-    margin-bottom: 1em;     /* espace entre les cartes */
+    flex: none;            
+    width: 90%;             
+    margin-bottom: 1em;   
   }
 .cardactivites img {
     height: 150px;}
